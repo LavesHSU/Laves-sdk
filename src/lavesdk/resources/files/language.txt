@@ -1,0 +1,564 @@
+﻿/////////////////////////////////////////////////////////////////////////////
+// This is a language file of the LAVESDK.
+//
+// It includes labels for the graphical views which are part of the LAVESDK.
+/////////////////////////////////////////////////////////////////////////////
+
+$LANGUAGES
+#en = English
+#de = Deutsch
+
+// the tooltip text or menu item text of file > new
+$FILE_NEW
+#en = New...
+#de = Neu...
+
+// the tooltip text or menu item text of file > save as
+$FILE_SAVE_AS
+#en = Save as...
+#de = Speichern unter...
+
+// the tooltip text or menu item text of file > open
+$FILE_OPEN
+#en = Open...
+#de = Öffnen...
+
+// the tooltip text or menu item text of runtime environment > enable exercise mode
+$RTE_EXERCISE_MODE
+#en = Exercise Mode
+#de = Übungsmodus
+
+// the tooltip text or menu item text of runtime environment > start
+$RTE_START
+#en = Start/Resume
+#de = Starten/Fortsetzen
+
+// the tooltip text or menu item text of runtime environment > start to finish
+$RTE_START_TO_FINISH
+#en = Start/Resume to Finish
+#de = Starten/Fortsetzen bis zum Ende
+
+// the tooltip text or menu item text of runtime environment > play and pause
+$RTE_PLAY_AND_PAUSE
+#en = Play And Pause
+#de = Wiedergabe und Pausieren
+
+// the tooltip text or menu item text of runtime environment > stop
+$RTE_STOP
+#en = Stop
+#de = Beenden
+
+// the tooltip text or menu item text of runtime environment > pause
+$RTE_PAUSE
+#en = Pause
+#de = Pausieren
+
+// the tooltip text or menu item text of runtime environment > next step
+$RTE_NEXT_STEP
+#en = Next Step
+#de = Schritt vor
+
+// the tooltip text or menu item text of runtime environment > previous step
+$RTE_PREV_STEP
+#en = Previous Step
+#de = Schritt zurück
+
+// the tooltip text or menu item text of runtime environment > skip all breakpoints
+$RTE_SKIP_BREAKPOINTS
+#en = Skip All Breakpoints
+#de = Breakpoints überspringen
+
+// the tooltip text or menu item text of runtime environment > pause before stop
+$RTE_PAUSE_BEFORE_STOP
+#en = Pause Before Stop
+#de = Vor Beendigung pausieren
+
+// the tooltip text or menu item text of runtime environment > change execution speed
+$RTE_EXECSPEED_CHANGE
+#en = Change Execution Speed
+#de = Ausführungsgeschwindigkeit ändern
+
+// the tooltip text or menu item text of runtime environment > execution speed > slower
+$RTE_EXECSPEED_SLOWER
+#en = Slower
+#de = Langsamer
+
+// the tooltip text or menu item text of runtime environment > execution speed > faster
+$RTE_EXECSPEED_FASTER
+#en = Faster
+#de = Schneller
+
+// the tooltip text or menu item text of runtime environment > execution speed > reset
+$RTE_EXECSPEED_RESET
+#en = Reset Execution Speed
+#de = Ausführungsgeschwindigkeit zurücksetzen
+
+// the tooltip text of the label that shows the execution speed factor
+$RTE_EXECSPEED
+#en = Execution Speed
+#de = Ausführungsgeschwindigkeit
+
+// the tooltip text of the close button in the information bar
+$INFORMATIONBAR_CLOSE_TOOLTIP
+#en = Close Information Bar
+#de = Informationsleiste schließen
+
+// the label that shows the assumptions of a plugin in the information bar
+$INFORMATIONBAR_ASSUMPTIONS
+#en = Assumption(s):
+#de = Voraussetzung(en):
+
+// the tooltip text of the button that shows the instructions of a plugin in the information bar
+$INFORMATIONBAR_SHOWINSTRUCTIONS
+#en = Show Instructions
+#de = Anleitung anzeigen
+
+// the title of the dialog that shows the instructions of a plugin in the information bar
+$INFORMATIONBAR_SHOWINSTRUCTIONS_TITLE
+#en = Instructions
+#de = Anleitung
+
+// the tooltip text of the close button in the header bar of a view
+$VIEW_CLOSE_TOOLTIP
+#en = Close
+#de = Schließen
+
+// the text of the menu item to add a breakpoint in the algorithm text view
+$TEXTVIEW_ADD_BREAKPOINT
+#en = Add Breakpoint
+#de = Breakpoint hinzufügen
+
+// the text of the menu item to remove a breakpoint in the algorithm text view
+$TEXTVIEW_REMOVE_BREAKPOINT
+#en = Remove Breakpoint
+#de = Breakpoint entfernen
+
+// the text of the menu item to remove all breakpoints in the algorithm text view
+$TEXTVIEW_SET_ALL_BREAKPOINTS
+#en = Set All Breakpoints
+#de = Alle Breakpoints setzen
+
+// the text of the menu item to remove all breakpoints in the algorithm text view
+$TEXTVIEW_REMOVE_ALL_BREAKPOINTS
+#en = Remove All Breakpoints
+#de = Alle Breakpoints entfernen
+
+// the text of the menu item and the tooltip of the button to show the annotation of an algorithm step
+$TEXTVIEW_SHOW_ANNOTATION
+#en = Show Annotation
+#de = Anmerkung anzeigen
+
+// the tooltip text of the font size up button in the header bar of the algorithm text view
+$TEXTVIEW_FONTSIZE_UP_BTN_TOOLTIP
+#en = Font Size Up
+#de = Schriftgröße erhöhen
+
+// the tooltip text of the font size down button in the header bar of the algorithm text view
+$TEXTVIEW_FONTSIZE_DOWN_BTN_TOOLTIP
+#en = Font Size Down
+#de = Schriftgröße verringern
+
+// the tooltip text of the normal font size button in the header bar of the algorithm text view
+$TEXTVIEW_FONTSIZE_NORMAL_BTN_TOOLTIP
+#en = Standard Font Size
+#de = Standard-Schriftgröße
+
+// the tooltip text of the toggle breakpoint button in the header bar of the algorithm text view
+$TEXTVIEW_TOGGLE_BREAKPOINT_BTN_TOOLTIP
+#en = Toggle Breakpoint
+#de = Breakpoint umschalten
+
+// the tooltip text of the mouse cursor button in the toolbar of the graph view
+$GRAPHVIEW_MOUSECURSOR_BTN_TOOLTIP
+#en = <b>Mouse cursor</b><br>Use the cursor to select/deselect vertices and edges,<br>move a vertex by dragging him with the mouse or click in the graph<br>and move the mouse to stretch a selection area to select multiple objects.
+#de = <b>Maus</b><br>Benutze die Maus, um Knoten und Kanten aus-/abzuwählen,<br>Knoten zu verschieben oder einen Auswahlbereich aufzuspannen.
+
+// the tooltip text of the add new vertex button in the toolbar of the graph view
+$GRAPHVIEW_ADDVERTEX_BTN_TOOLTIP
+#en = <b>Add a new vertex</b><br>Use the mouse and click inside the graph area to position a new vertex.
+#de = <b>Neuen Knoten hinzufügen</b><br>Benutze die Maus und klicke innerhalb des Zeichenbereichs,<br>um einen neuen Knoten zu positionieren.
+
+// the tooltip text of the add new edge button in the toolbar of the graph view
+$GRAPHVIEW_ADDEDGE_BTN_TOOLTIP
+#en = <b>Add a new edge</b><br>Use your left mouse button to start/end a connection path and the right mouse button<br>to add intermediate points if necessary (after you click the left mouse button again<br>the vertices that lie on the path are connected).
+#de = <b>Neue Kante hinzufügen</b><br>Benutze die linke Maustaste, um Knoten zu verbinden und die rechte<br>Maustaste, um Zwischenpunkte festzulegen (wenn notwendig).<br>Nachdem die linke Maustaste ein zweites Mal betätigt wird,<br>werden die Knoten verbunden, die auf dem Pfad liegen.
+
+// the tooltip text of the delete selected objects button in the toolbar of the graph view
+$GRAPHVIEW_DELETEOBJ_BTN_TOOLTIP
+#en = <b>Delete objects</b><br>Select the vertices and edges you want to remove from the graph and<br>press this button or use the delete key on your keyboard.
+#de = <b>Objekte entfernen</b><br>Wähle die Knoten und Kanten aus, die aus dem Graphen entfernt werden<br>sollen und drücke diesen Button oder die Entfernen-Taste auf der Tastatur.
+
+// the tooltip text of the show properties button in the toolbar of the graph view
+$GRAPHVIEW_SHOWPROPS_BTN_TOOLTIP
+#en = <b>Show properties</b><br>Select a vertex or edge and press this button to show the properties window.<br>Their you can view and modify the properties of the object.<br><b>Tip 1</b>: You can double click on an object to open the properties window too.<br><b>Tip 2</b>: It is also possible to select a vertex/edge and use the keyboard to change<br>the vertex's caption or edge's weight.
+#de = <b>Eigenschaften anzeigen</b><br>Wähle einen Knoten/Kante aus und drücke diesen Button,<br>um die Eigenschaften des Objekts sehen und verändern zu können.<br><b>Tipp 1</b>: Mit einem Doppelklick auf ein Objekt lässt sich das<br>Eigenschaften-Fenster ebenfalls öffnen.<br><b>Tipp 2</b>: Es ist außerdem möglich direkt per Tastatur die Beschriftung oder das<br>Gewicht des/der ausgewählten Knoten/Kante zu verändern.
+
+// the tooltip text of the zoom in button in the toolbar of the graph view
+$GRAPHVIEW_ZOOMIN_BTN_TOOLTIP
+#en = <b>Zoom in</b>
+#de = <b>Ansicht vergrößern</b>
+
+// the tooltip text of the zoom out button in the toolbar of the graph view
+$GRAPHVIEW_ZOOMOUT_BTN_TOOLTIP
+#en = <b>Zoom out</b>
+#de = <b>Ansicht verkleinern</b>
+
+// the title of the properties dialog of the graph view in which the properties of a vertex are shown
+$GRAPHVIEW_PROPERTIESDLG_VERTEX_TITLE
+#en = Vertex Properties
+#de = Knoten-Eigenschaften
+
+// the title of the properties dialog of the graph view in which the properties of an edge are shown
+$GRAPHVIEW_PROPERTIESDLG_EDGE_TITLE
+#en = Edge Properties
+#de = Kanten-Eigenschaften
+
+// the name of the caption property in the properties dialog of a vertex
+$GRAPHVIEW_VERTEXPROPS_CAPTION
+#en = Caption
+#de = Beschriftung
+
+// the name of the weight property in the properties dialog of an edge
+$GRAPHVIEW_EDGEPROPS_WEIGHT
+#en = Weight
+#de = Gewicht
+
+// the name of the directed property in the properties dialog of an edge
+$GRAPHVIEW_EDGEPROPS_DIRECTED
+#en = Directed
+#de = Gerichtet
+
+// the description of the directed property if it is a directed graph
+$GRAPHVIEW_EDGEPROPS_DIRECTED_CHANGEINFO_DG
+#en = This is a directed graph so changing this value does not have any effect.
+#de = Dies ist ein gerichteter Graph, eine Veränderung dieses Wertes hat keine Auswirkungen.
+
+// the description of the directed property if it is an undirected graph
+$GRAPHVIEW_EDGEPROPS_DIRECTED_CHANGEINFO_UDG
+#en = This is an undirected graph so changing this value does not have any effect.
+#de = Dies ist ein ungerichteter Graph, eine Veränderung dieses Wertes hat keine Auswirkungen.
+
+// the name of the flow property in the properties dialog of an arc
+$NETWORKVIEW_ARCPROPS_FLOW
+#en = Flow
+#de = Fluss
+
+// the tooltip text of a sort up button in a sortable execution table
+$EXECUTIONTABLE_SORTUP_BTN_TOOLTIP
+#en = Up
+#de = Nach oben
+
+// the tooltip text of a sort down button in a sortable execution table
+$EXECUTIONTABLE_SORTDOWN_BTN_TOOLTIP
+#en = Down
+#de = Nach unten
+
+// the tooltip text of the graph toolbar button to apply a partition layout to the graph
+$GRAPHTOOLBAR_BIPARTITE_LAYOUT
+#en = Arrange Vertices bipartite (<b>only possible if graph is bipartite</b>)
+#de = Knoten bipartit anordnen (<b>nur möglich, wenn Graph bipartit</b>)
+
+// the tooltip text of the graph toolbar button to apply a circle layout to the graph
+$GRAPHTOOLBAR_CIRCLE_LAYOUT
+#en = Arrange Vertices in a Circle (Circle Layout)
+#de = Knoten im Kreis anordnen (Kreislayout)
+
+// the tooltip text of the graph toolbar button which checks whether the graph is complete
+$GRAPHTOOLBAR_IS_COMPLETE
+#en = Is Graph complete?
+#de = Ist Graph vollständig?
+
+// the tooltip text of the graph toolbar button which creates a complete graph
+$GRAPHTOOLBAR_CREATE_COMPLETE
+#en = Create complete Graph
+#de = Vollständigen Graphen erzeugen
+
+// the title of the dialog where the user has to enter the number of vertices when he wants to create a complete graph
+$GRAPHTOOLBAR_CREATE_COMPLETE_DLG_TITLE
+#en = Create complete Graph
+#de = Vollständigen Graphen erzeugen
+
+// the label of the field in the dialog where the user has to enter the number of vertices when he wants to create a complete graph
+$GRAPHTOOLBAR_CREATE_COMPLETE_DLG_NOV
+#en = Number of vertices:
+#de = Anzahl Knoten:
+
+// the label of the field the user has to enter the max. weight of edges
+$GRAPHTOOLBAR_CREATE_COMPLETE_DLG_MAXWEIGHT
+#en = Max. weight of edges:
+#de = Max. Kantengewicht:
+
+// the tooltip text of the graph toolbar button which checks if the graph is bipartite
+$GRAPHTOOLBAR_IS_BIPARTITE
+#en = Is Graph bipartite?
+#de = Ist Graph bipartit?
+
+// the tooltip text of the graph toolbar button which checks if the graph is complete bipartite
+$GRAPHTOOLBAR_IS_COMPLETE_BIPARTITE
+#en = Is Graph complete bipartite?
+#de = Ist Graph vollständig bipartit?
+
+// the tooltip text of the graph toolbar button which creates a complete bipartite graph
+$GRAPHTOOLBAR_CREATE_COMPLETE_BIPARTITE
+#en = Create complete bipartite Graph
+#de = Vollständig bipartiten Graphen erzeugen
+
+// the title of the dialog where the user has to enter the number of vertices in subset 1 and 2 when he wants to create a complete bipartite graph
+$GRAPHTOOLBAR_CREATE_COMPLETE_BIPARTITE_DLG_TITLE
+#en = Create complete bipartite Graph
+#de = Vollständig bipartiten Graphen erzeugen
+
+// the label of the field in the dialog where the user has to enter the number of vertices in subset 1 when he wants to create a complete bipartite graph
+$GRAPHTOOLBAR_CREATE_COMPLETE_BIPARTITE_DLG_SUBSET1
+#en = Number of vertices in subset 1:
+#de = Anzahl Knoten in Teilmenge 1:
+
+// the label of the field in the dialog where the user has to enter the number of vertices in subset 2 when he wants to create a complete bipartite graph
+$GRAPHTOOLBAR_CREATE_COMPLETE_BIPARTITE_DLG_SUBSET2
+#en = Number of vertices in subset 2:
+#de = Anzahl Knoten in Teilmenge 2:
+
+// the label of the field the user has to enter the max. weight of edges
+$GRAPHTOOLBAR_CREATE_COMPLETE_BIPARTITE_DLG_MAXWEIGHT
+#en = Max. weight of edges:
+#de = Max. Kantengewicht:
+
+// the tooltip text of the button to create a graph using an adjacency matrix
+$GRAPHTOOLBAR_MATRIXTOGRAPH
+#en = Create a Graph by use of an Adjacency Matrix
+#de = Graph mittels einer Adjazenzmatrix erstellen
+
+// the tooltip text of the button to create a random graph
+$GRAPHTOOLBAR_RANDOMGRAPH
+#en = Create a random Graph
+#de = Zufallsgraph erstellen
+
+// the title of the dialog where the user has to enter the number of vertices when he wants to create a random graph
+$GRAPHTOOLBAR_RANDOMGRAPH_DLG_TITLE
+#en = Create random Graph
+#de = Zufälligen Graphen erzeugen
+
+// the label of the field in the dialog where the user has to enter the number of vertices when he wants to create a random graph
+$GRAPHTOOLBAR_RANDOMGRAPH_DLG_NOV
+#en = Number of vertices:
+#de = Anzahl Knoten:
+
+// the label of the field the user has to enter the min. weight of edges
+$GRAPHTOOLBAR_RANDOMGRAPH_DLG_MINWEIGHT
+#en = Min. weight of edges:
+#de = Min. Kantengewicht:
+
+// the label of the field the user has to enter the max. weight of edges
+$GRAPHTOOLBAR_RANDOMGRAPH_DLG_MAXWEIGHT
+#en = Max. weight of edges:
+#de = Max. Kantengewicht:
+
+// the default message of the input hint of an exercise
+$EXERCISE_INPUTHINT_DEFMSG
+#en = Enter your solution of the task in the highlighted view(s) "&views&".<br>Click on the "Solve Exercise"-button only after you have made the input.
+#de = Geben Sie die Lösung der Aufgabe in der/den hervorgehobenen Ansicht(en) "&views&" ein.<br>Klicken Sie erst nach der Eingabe auf den "Aufgabe lösen"-Button.
+
+// the title of the input hint message of an exercise
+$EXERCISE_INPUTHINT_TITLE
+#en = Input Hint
+#de = Eingabehilfe
+
+// the title of the exercises list
+$EXERCISESLIST_TITLE
+#en = Exercises
+#de = Übungsaufgaben
+
+// the title of an exercise item
+$EXERCISESLIST_ITEM_EXERCISE
+#en = Exercise
+#de = Aufgabe
+
+// the description for a credit
+$EXERCISESLIST_ITEM_CREDIT
+#en = Credit
+#de = Punkt
+
+// the description for credits
+$EXERCISESLIST_ITEM_CREDITS
+#en = Credits
+#de = Punkte
+
+// the description of the result label in an exercise item
+$EXERCISESLIST_ITEM_RESULT
+#en = Result:
+#de = Ergebnis:
+
+// the description of the attempts label in an exercise item
+$EXERCISESLIST_ITEM_ATTEMPTS
+#en = Attempts:
+#de = Versuche:
+
+// the description of the last solution label in an exercise item
+$EXERCISESLIST_ITEM_LAST_SOLUTION
+#en = Last Solution:
+#de = Letzte Lösung:
+
+// the tooltip of the solve button in an exercise item
+$EXERCISESLIST_ITEM_BTN_SOLVE
+#en = Solve Exercise
+#de = Aufgabe lösen
+
+// the tooltip of the give up button in an exercise item
+$EXERCISESLIST_ITEM_BTN_GIVEUP
+#en = Give Up Exercise
+#de = Aufgabe abbrechen
+
+// the tooltip of the input hint button in an exercise item
+$EXERCISESLIST_ITEM_BTN_INPUTHINT
+#en = Show Input Hint
+#de = Eingabehilfe anzeigen
+
+// the tooltip of the annotation button in an exercise item
+$EXERCISESLIST_ITEM_BTN_ANNOTATION
+#en = Show Annotation
+#de = Anmerkung anzeigen
+
+// the tooltip of the state succeeded
+$EXERCISESLIST_ITEM_STATE_SUCCEEDED
+#en = Succeeded
+#de = Bestanden
+
+// the tooltip of the state failed
+$EXERCISESLIST_ITEM_STATE_FAILED
+#en = Failed
+#de = Nicht bestanden
+
+// the tooltip of the state failed if a hint message is available
+$EXERCISESLIST_ITEM_STATE_FAILEDHINT
+#en = Failed - Why?
+#de = Nicht bestanden - Warum?
+
+// the text of the header label of the evaluation panel
+$EXERCISESLIST_EVALUATION
+#en = Evaluation
+#de = Auswertung
+
+// the text of the credits label of the evaluation panel
+$EXERCISESLIST_EVALUATION_CREDITSACHIEVED
+#en = Credits:
+#de = Punkte:
+
+// the text of the credits in percent label of the evaluation panel
+$EXERCISESLIST_EVALUATION_INPERCENT
+#en = In Percent:
+#de = In Prozent:
+
+// the text of the grading label of the evaluation panel
+$EXERCISESLIST_EVALUATION_GRADING
+#en = Grading:
+#de = Einstufung:
+
+// the title of the grading scale dialog of the evaluation panel that is also used as the tooltip of the grading value button
+$EXERCISESLIST_EVALUATION_GRADING_SCALE
+#en = Grading Scale
+#de = Notenstufen
+
+// the title of the solve exercise dialog
+$SOLVEEXERCISEDLG_TITLE
+#en = Solve Exercise
+#de = Aufgabe lösen
+
+// the title of the adjacency matrix dialog
+$ADJACENCYMATRIXDLG_TITLE
+#en = Adjacency Matrix
+#de = Adjazenzmatrix
+
+// the description of the adjacency matrix dialog
+$ADJACENCYMATRIXDLG_DESCRIPTION
+#en = Enter the number of vertices and create the adjacency matrix by selecting a field<br>and enter a weight for the edge using the keyboard.
+#de = Bitte geben Sie die Anzahl der Knoten an und erstellen Sie anschließend die Adjazenzmatrix,<br>indem Sie ein Feld auswählen und per Tastatur das Gewicht der Kante eintragen.
+
+// the label of the field where the user has to enter the number of vertices
+$ADJACENCYMATRIXDLG_NOV
+#en = Number of vertices:
+#de = Anzahl Knoten:
+
+// the label of the checkbox to specify whether the adjacency matrix may contain zero-weight edges or not
+$ADJACENCYMATRIXDLG_ALLOWZEROWEIGHTS
+#en = Allow zero-weight edges?
+#de = Nullgewichte erlauben?
+
+// the label of the description of the zero-weight edge checkbox
+$ADJACENCYMATRIXDLG_ALLOWZEROWEIGHTS_DESC
+#en = Enable this option to allow zero-weight edges too.<br>In that case enter "-" (infinity) as the entry for "no edge" in the adjacency matrix.
+#de = Aktivieren Sie diese Option, um auch Kantengewichte mit Wert Null zuzulassen.<br>Verwenden Sie dann "-" (unendlich) als Eintrag in der Adjazenzmatrix für "keine Kante".
+
+// the title of the annotation dialog
+$ANNOTATIONDLG_TITLE
+#en = Annotation
+#de = Anmerkung
+
+// the caption of the ok button of a dialog
+$DLG_BTN_OK
+#en = Ok
+#de = Ok
+
+// the caption of the cancel button of a dialog
+$DLG_BTN_CANCEL
+#en = Cancel
+#de = Abbrechen
+
+// the caption of the quit button of a dialog
+$DLG_BTN_QUIT
+#en = Quit
+#de = Schließen
+
+// the label of the checkbox where the user can determine whether to create either a directed or an undirected graph
+$DLG_CB_CREATEDIRECTEDGRAPH
+#en = Create a directed graph?
+#de = Einen gerichteten Graphen erzeugen?
+
+// the warning message that is displayed when the user wants to delete objects in the graph view
+$MSG_WARN_GRAPHVIEW_DELETEOBJ
+#en = Are you sure you want to delete the selected objects from the graph?
+#de = Sind Sie sicher, dass die ausgewählten Objekte vom Graphen entfernt werden sollen?
+
+// the title of the warning message that is displayed when the user wants to delete objects in the graph view
+$MSG_WARN_TITLE_GRAPHVIEW_DELETEOBJ
+#en = Delete Selected Objects
+#de = Ausgewählte Objekte entfernen
+
+// the info message that informs the user that he has to select one object in the graph view to show his properties
+$MSG_INFO_GRAPHVIEW_SHOWPROPS
+#en = Select an object to show or modify its properties!
+#de = Wählen Sie ein Objekt aus, dessen Eigenschaften Sie sehen oder verändern wollen!
+
+// the title of the info message that informs the user that he has to select one object in the graph view to show his properties
+$MSG_INFO_TITLE_GRAPHVIEW_SHOWPROPS
+#en = Show Properties
+#de = Eigenschaften anzeigen
+
+// the error message that is displayed when the user wants to create a new edge in the default residual network view although the related vertices do not exist in network
+$MSG_ERR_DEFAULTRNVIEW_CREATEEDGE
+#en = The vertices "&predecessor&" and "&successor&" do not exist in the network.%nYou can only create edges between vertices that exist in the related network!%nTip: Check the captions of the vertices.
+#de = Die Knoten "&predecessor&" und "&successor&" kommen im Netzwerk nicht vor.%nEs können nur Kanten zwischen Knoten erstellt werden, die auch im zugehörigen Netzwerk existieren!%nTipp: Überprüfen Sie die Beschriftungen der Knoten.
+
+// the title of the error message that is displayed when the user wants to create a new edge in the default residual network view although the related vertices do not exist in network
+$MSG_ERR_TITLE_DEFAULTRNVIEW_CREATEEDGE
+#en = Create edge
+#de = Kante erstellen
+
+// the info message if the user wants to enable the exercise mode but the algorithm is still running
+$MSG_INFO_EXERCISEMODE
+#en = The exercise mode can only be activated/deactivated when the algorithm is stopped!
+#de = Der Übungsmodus kann nur aktiviert/deaktiviert werden, wenn der Algorithmus gestoppt wurde!
+
+// the title of the info message
+$MSG_INFO_TITLE_EXERCISEMODE
+#en = Exercise Mode
+#de = Übungsmodus
+
+// the word yes to show the state of an statement (like: Is it a complete graph?)
+$STATE_YES
+#en = Yes
+#de = Ja
+
+// the word no to show the state of an statement (like: Is it a complete graph?)
+$STATE_NO
+#en = No
+#de = Nein
