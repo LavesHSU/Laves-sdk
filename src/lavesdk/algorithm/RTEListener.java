@@ -1,7 +1,8 @@
 /**
  * This is part of the LAVESDK - Logistics Algorithms Visualization and Education Software Development Kit.
  * 
- * Copyright (C) 2013 Jan Dornseifer & Department of Management Information Science, University of Siegen
+ * Copyright (C) 2020 Jan Dornseifer & Department of Management Information Science, University of Siegen &
+ *                    Department for Management Science and Operations Research, Helmut Schmidt University
  * 
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -14,14 +15,6 @@
  * GNU General Public License for more details.
  * 
  * See license/LICENSE.txt for further information.
- * 
- *=========================================================================================================
- * 
- * Interface:	RTEListener
- * Task:		Listen to events from the algorithm runtime environment
- * Created:		13.11.13
- * LastChanges:	06.03.14
- * LastAuthor:	jdornseifer
  */
 
 package lavesdk.algorithm;
