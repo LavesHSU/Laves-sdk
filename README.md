@@ -19,38 +19,30 @@ the specific needs of a course.
 
 # Build and release a new version
 
-Before you build and release a new version of the LAVESDK you have to adjust the version
-information. Please open the corresponding properties file of LAVESDK (location:
-src\lavesdk\resources\files\lavesdk.properties) and change the major number (version_major)
-and/or the minor number (version_minor) of the version.
+Before you build and release a new version of the LAVESDK please adjust the version
+information in the appropriate properties file of LAVESDK (location:
+src\lavesdk\resources\files\lavesdk.properties). Change the major number (version_major)
+and/or the minor number (version_minor) of the SDK.
 The major number has to be increased when there are breaking changes which lead to incompatibility
-with previous versions. The minor number is incremented when only new features or significant fixes
+with previous versions. The minor number is incremented when only new features or significant bug fixes
 have been added to LAVESDK.
-The minimum version information must be adjusted if you add additional methods to the
-interface AlgorithmPlugin or the class AlgorithmRTE because these are fundamental items of the
-LAVESDK. So you have to set min_version_major and min_version_minor to the values of version_major
-and version_minor. Otherwise you should refrain from changing the minimum version information!
 
-After that you have to use the build script to build the new LAVESDK release. Go to
-build\build.xml (inside of your IDE like Eclipse) and run the ant task "build" or
-"build_debug" (in Eclipse this is done by right-clicking on the named entry in the Outline view and
-select Run As -> Ant Build).
-For debugging support you have to publish a debug version with every release of the LAVESDK, too.
+When there are breaking changes in the signature of interfaces, classes or methods, like AlgorithmPlugin or AlgorithmRTE, you need
+to adjust the minimum version information, too. The minimum version information indicates that only plugins that use the same or a higher version of the SDK are compatible.
 
-# Create new views or GUI components
+Afterwards, use the Ant build script (location: build\build.xml) to compile the SDK and create a new release.
+It is recommended to always provide a release and a debug version. Therefore use the corresponding build targets "build" and "build_debug" of the build script.
 
-If you create a new view component please note the "LAVESDK Visualization Policy". For
-further information on "how to create a new view" look at the Javadoc of the class View.
-
+Please see (and extend) the changelog for a What's new list.
 
 # Visualization Policy
 
 LAVESDK uses Swing framework to display the graphical user interface of algorithms or in
 general to display the GUI. Because each algorithm has its own runtime environment (RTE) which runs
 in its own thread calls to the UI must be synchronized. Swing is espacially not thread-safe thus developers must
-keep in mind to ensure thread-safety when handling GUI tasks.
+keep in mind to ensure thread-safety when handling GUI tasks to avoid memory consistency errors or unexpected behaviour.
 To reduce the work of a plugin developer, visualization components that are shipped with LAVESDK are thread-safe
-by themselves. So when you create a new visualization component IN LAVESDK please consider thread-safety for ease of use
+by themselves. So when you create a new visualization component that is contained in LAVESDK please consider thread-safety for ease of use
 in algorithm visualizations.
 
 Moreover, the LAVESDK brings along functionality to access GUI components in a thread-safe way. Please take a look at the classes 
