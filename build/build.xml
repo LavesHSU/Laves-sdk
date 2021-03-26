@@ -3,26 +3,26 @@
 
 	<!-- Globals Config -->
 	<property name="encoding" value="8859_1" />
-	<property name="compilerlevel" value="1.7" />
+	<property name="compilerlevel" value="1.8" />
 	<property name="debuglevel" value="lines,vars,source" />
 	<property name="includeantruntime" value="false" />
 
 	<!-- Properties File -->
-	<property file="..\src\lavesdk\resources\files\lavesdk.properties" />
+	<property file="../src/lavesdk/resources/files/lavesdk.properties" />
 
 	<!-- Globals -->
 	<property name="prj_lavesdk" location="..\" />
-	<property name="res_files" value="lavesdk\resources\files\**" />
-	<property name="res_icons" value="lavesdk\resources\icons\**" />
-	<property name="license" value="license\**" />
-	<property name="libraries" value="..\lib" />
+	<property name="res_files" value="lavesdk/resources/files/**" />
+	<property name="res_icons" value="lavesdk/resources/icons/**" />
+	<property name="license" value="license/**" />
+	<property name="libraries" value="../lib" />
 	<property name="version" value="${version_major}.${version_minor}" />
 	<property name="jar_name" value="lavesdk-${version}.jar" />
 	<property name="jar_debug_name" value="lavesdk-${version}_debug.jar" />
 
 	<!-- Paths -->
 	<path id="classpath">
-		<fileset dir="..\lib" includes="**/*.jar" />
+		<fileset dir="../lib" includes="**/*.jar" />
 	</path>
 
 	<!-- Compile Target -->
@@ -45,13 +45,13 @@
 
 	<!-- Clean Projects -->
 	<target name="clean">
-		<delete dir="${prj_lavesdk}\bin" />
-		<mkdir dir="${prj_lavesdk}\bin" />
+		<delete dir="${prj_lavesdk}/bin" />
+		<mkdir dir="${prj_lavesdk}/bin" />
 	</target>
 
 	<!-- Compile SDK -->
 	<target name="compile_sdk" description="compile the lavesdk">
-		<javac srcdir="${prj_lavesdk}\src" destdir="${prj_lavesdk}\bin"
+		<javac srcdir="${prj_lavesdk}/src" destdir="${prj_lavesdk}/bin"
 			encoding="${encoding}" debug="${debugmode}" debuglevel="${debuglevel}"
 			target="${compilerlevel}" includeantruntime="${includeantruntime}">
 			<classpath>
@@ -63,9 +63,9 @@
 	<!-- Build JAR -->
 	<target name="makejar" description="Create Jar for LAVESDK">
 		<jar jarfile="${jar_name}" includes="**/*.class">
-			<fileset dir="${prj_lavesdk}\bin\" />
-			<fileset dir="${prj_lavesdk}\src" includes="${res_files}" />
-			<fileset dir="${prj_lavesdk}\src" includes="${res_icons}" />
+			<fileset dir="${prj_lavesdk}/bin/" />
+			<fileset dir="${prj_lavesdk}/src" includes="${res_files}" />
+			<fileset dir="${prj_lavesdk}/src" includes="${res_icons}" />
 			<fileset dir="${prj_lavesdk}" includes="${license}" />
 			<zipgroupfileset dir="${libraries}" />
 		</jar>
@@ -74,10 +74,10 @@
 	<!-- Build DEBUG JAR -->
 	<target name="makejar_debug" description="Create Debug-Jar for LAVESDK">
 		<jar jarfile="${jar_debug_name}" includes="**/*.class,**/*.java">
-			<fileset dir="${prj_lavesdk}\bin\" />
-			<fileset dir="${prj_lavesdk}\src\" />
-			<fileset dir="${prj_lavesdk}\src" includes="${res_files}" />
-			<fileset dir="${prj_lavesdk}\src" includes="${res_icons}" />
+			<fileset dir="${prj_lavesdk}/bin/" />
+			<fileset dir="${prj_lavesdk}/src/" />
+			<fileset dir="${prj_lavesdk}/src" includes="${res_files}" />
+			<fileset dir="${prj_lavesdk}/src" includes="${res_icons}" />
 			<fileset dir="${prj_lavesdk}" includes="${license}" />
 			<zipgroupfileset dir="${libraries}" />
 		</jar>
