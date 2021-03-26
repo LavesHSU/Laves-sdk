@@ -21,17 +21,17 @@ the specific needs of a course.
 
 Before you build and release a new version of the LAVESDK please adjust the version
 information in the appropriate properties file of LAVESDK (location:
-src\lavesdk\resources\files\lavesdk.properties). Change the major number (version_major)
-and/or the minor number (version_minor) of the SDK.
+`src\lavesdk\resources\files\lavesdk.properties`). Change the major number (`version_major`)
+and/or the minor number (`version_minor`) of the SDK.
 The major number has to be increased when there are breaking changes which lead to incompatibility
 with previous versions. The minor number is incremented when only new features or significant bug fixes
 have been added to LAVESDK.
 
-When there are breaking changes in the signature of interfaces, classes or methods, like AlgorithmPlugin or AlgorithmRTE, you need
+When there are breaking changes in the signature of interfaces, classes or methods, like `AlgorithmPlugin` or `AlgorithmRTE`, you need
 to adjust the minimum version information, too. The minimum version information indicates that only plugins that use the same or a higher version of the SDK are compatible.
 
-Afterwards, use the Ant build script (location: build\build.xml) to compile the SDK and create a new release.
-It is recommended to always provide a release and a debug version. Therefore use the corresponding build targets "build" and "build_debug" of the build script.
+Afterwards, use the Ant build script (location: `build\build.xml`) to compile the SDK and create a new release.
+It is recommended to always provide a release and a debug version. Therefore use the corresponding build targets `build` and `build_debug` of the build script.
 
 Please see (and extend) the changelog for a What's new list.
 
